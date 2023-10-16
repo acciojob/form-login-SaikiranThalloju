@@ -11,7 +11,7 @@ function getFormvalue() {
     var lastName = lastNameInput.value;
 
     // Display the first and last name using alert
-    alert("First Name: " + firstName + "\nLast Name: " + lastName);
+    alert( firstName + " " + lastName);
 
     // Prevent the form from actually submitting and refreshing the page
     return false;
